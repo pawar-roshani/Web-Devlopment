@@ -1,0 +1,14 @@
+.Bag{
+  background-color: greenyellow;
+  border:none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 15px;
+}
+.Wish{
+  padding:  5px 35px;
+  border: 2px solid black;
+  border-radius:10px;
+}

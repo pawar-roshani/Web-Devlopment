@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Scope</title>
+</head>
+<body>
+  <!-- Global Scope :can we use Anywhere  -->
+  <script>
+    // local Scope:
+
+    // Block Scope(let  , const) scope is : Accessible between curly braces . limited to block
+
+    // Function Scope (var):Accessible inside a function
+    let age=54;
+    let userMessage;    //variable we can define outside
+    if(age> 18){
+      userMessage ='You can drive';
+      //  use inside
+    }
+    else{
+      userMessage ='use Biycycle';
+      //  use inside
+
+    }
+    console.log(userMessage);
+    // but we cant use inner define value outside
+  </script>
+</body>
+</html>
